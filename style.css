@@ -1,0 +1,119 @@
+html {
+  width: 380px;
+  padding: 0;
+  overflow: hidden;
+}
+html > * {
+  font-size: 1rem;
+  font-family: "Poppins";
+}
+
+.head {
+  background-color: #303855;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 20px 25px;
+}
+.head img {
+  max-width: 25px;
+}
+.head h1 {
+  font-weight: 600;
+  color: #c2bcfa;
+}
+
+.content {
+  padding: 20px 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.content h1 {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.content .class {
+  padding: 10px;
+  border-radius: 4px;
+  background: #303855;
+  outline: 2px solid #c2bcfa;
+}
+.content .class > * {
+  color: white;
+}
+.content .class__hour {
+  font-size: 0.65rem;
+  margin-bottom: 8px;
+  color: #c2bcfa;
+  font-weight: 600;
+}
+.content .class h2 {
+  font-size: 0.9rem;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+.content .class__room {
+  font-size: 0.65rem;
+  margin-top: 8px;
+}
+
+.login form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+.login form input {
+  width: calc(50% - 32px);
+  padding: 5px 10px;
+  font-size: 0.8rem;
+  color: #ffffff;
+  background-color: #2d2f4c;
+  border: 1px #918bc7 solid;
+  border-radius: 4px;
+}
+.login form input:focus {
+  outline: none;
+}
+.login form input::placeholder {
+  color: rgb(185, 185, 185);
+}
+.login .tag {
+  letter-spacing: 0;
+  width: fit-content;
+  height: fit-content;
+  background: #3d406d;
+  color: #c2bcfa;
+  border-radius: 4px;
+  padding: 8px;
+  transition: 300ms;
+  cursor: pointer;
+}
+.login .tag button {
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-family: SF, arial, sans-serif;
+  font-weight: 800;
+  line-height: 0.8;
+  display: flex;
+  align-items: center;
+  color: var(--tag-cl);
+  gap: 8px;
+  transition: transform 300ms 400ms ease;
+  border: none;
+  font-weight: 600;
+  font-size: 0.75rem;
+  cursor: pointer !important;
+}
+
+.github {
+  max-width: 20px;
+  position: absolute;
+  top: 23px;
+  right: 25px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */

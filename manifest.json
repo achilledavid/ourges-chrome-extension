@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "ourGes - planning",
+    "description": "myGes, but easier",
+    "version": "1.0",
+    "permissions": [
+        "activeTab",
+        "tabs"
+    ],
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "index.html"
+    },
+    "background": {
+        "scripts": [
+            "script.js"
+        ]
+    },
+    "icons": {
+        "16": "icon.png",
+        "32": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    }
+}
